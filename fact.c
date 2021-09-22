@@ -1,5 +1,6 @@
+
 #include <stdio.h>
-int main() {
+factorial() {
     int n, i;
     unsigned long long fact = 1;
     printf("Enter an integer: ");
@@ -15,8 +16,5 @@ int main() {
         printf("Factorial of %d = %llu", n, fact);
     }
 
-    return 0;
+  //  return 0;
 }
-
-# fact.c added by work2
-# fact.c modified by work1
